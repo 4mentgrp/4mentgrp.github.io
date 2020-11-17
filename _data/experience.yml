@@ -1,0 +1,51 @@
+- position: Lecturer
+  duration: Since 1/2020
+  company: University of Technology Sydney
+  location: Australia
+  summary: Computational and statistical methods to investigate genome evolution
+  
+- position: Data Scientist
+  duration: 09/2015 &mdash; 12/2019
+  company: University of Technology Sydney
+  location: Australia
+  summary: Computational and statistical methods to investigate genome evolution
+  pi: Aaron Darling
+  
+- position: Postdoctoral Fellow
+  duration:  05/2013 &mdash; 09/2015
+  company: The University of Sydney
+  location: Australia
+  summary: Investigation of viral and bacterial evolution and development of phylogenetic methods
+  pi: Edward Holmes
+
+- position: Postdoctoral Fellow
+  duration:  04/2011 &mdash; 04/2013
+  company: Duke-NUS #Graduate Medical School Singapore
+  location: Singapore
+  summary: Analysis of influenza viruses (human, H5N1, avian influenza) and development of statistical models of evolution. Development of maximum likelihood and genetic algorithm-based methods to date sequences
+  pi: Gavin Smith
+    
+- position: Postdoctoral Fellow
+  duration:  04/2010 &mdash; 04/2011
+  company: University of California, San Diego
+  location: USA
+  summary: Investigation of episodic selection using a mixture of Markov processes in the random effects likelihood framework
+  pi: Sergei Kosakovsky-Pond
+    
+- position: Visiting Fellow
+  duration:  01/2008 &mdash; 03/2009
+  company: Pasteur Institute of Cambodia
+  location: Phnom Penh, Cambodia
+  summary: Molecular analysis of influenza A viruses and Plasmodium in Cambodia
+
+- position: Visiting Fellow
+  duration:  02/2005 &mdash; 08/2006
+  company: Australian National University
+  location: Canberra, Australia
+  summary: Analysis influenza viruses and development of bioinformatics methods and software
+
+- position: Visiting Fellow
+  duration:  06/2004 &mdash; 08/2004
+  company: Australian National University
+  location: Canberra, Australia
+  summary: Analysis influenza viruses and development of bioinformatics methods and software

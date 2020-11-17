@@ -1,0 +1,14 @@
+- skill: Programming
+  list: Java, C, C++, Perl, Python, Objective-C/Cocoa, R, SSE vectorization, OpenMP
+  
+- skill: Database
+  list: MySQL, SQLite
+  
+- skill: Mathematics
+  list: probabilities, bootstrapping, hypothesis testing, optimization, Monte Carlo methods, genetic algorithms
+
+- skill: Biology
+  list: bioinformatics, phylogenetics, genomics, virology
+
+- skill: Other
+  list: Git, LaTeX, and Unix/Linux operating systems

@@ -1,0 +1,7 @@
+<packages>
+	<package name='bwest' version='0.0.1'
+				url="https://github.com/4ment/bwest/releases/download/v0.0.1/bwest.v0.0.1.zip"
+				description="Modules for BEAST2">
+		<depends on='beast2' atleast='2.5.0'/>
+	</package>
+</packages>

@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="row">
+	<div class="col-md-4">
+		{% if page.image %}
+		<img class="media-object" src="{{ page.image }}" style="height:250px;margin-bottom:20px">
+		{% else %}
+		<div style="margin-bottom:270px"></div>
+		{% endif %}
+			
+			{% if page.doi %}
+			Journal
+			<div style="margin-bottom:20px">
+				<i class="fa fa-external-link fa-fw" style="margin-top:5px"></i>
+				<a href="http://dx.doi.org/{{ page.doi }}" style="color:inherit">{{ page.doi }}</a>
+			</div>
+			{% endif %}
+			{% if page.preprint %}
+			Preprint
+			<div style="margin-bottom:20px">
+				<i class="fa fa-external-link fa-fw" style="margin-top:5px"></i>
+				{% if page.preprint contains "http" %}
+				<a class="off" href="{{ page.preprint }}" style="color:inherit">
+					{{ page.preprint | remove_first: 'http://' | remove: 'https://' }}
+				</a>
+				{% else %}
+				<a class="off" href="http://dx.doi.org/{{ page.preprint }}" style="color:inherit">{{ page.preprint }}</a>
+				{% endif %}
+			</div>
+			{% endif %}
+			
+			{% if page.github %}
+			GitHub
+			<div style="margin-bottom:20px">
+				<i class="fa fa-github-alt fa-fw" style="margin-top:5px"></i>
+				<a class="off" href="https://github.com/{{ page.github }}" style="color:inherit">{{ page.github }}</a>
+			</div>
+			{% endif %}
+
+			{% if page.scholar %}
+			Google Scholar
+			<div style="margin-bottom:20px">
+				<i class="ai ai-google-scholar ai" style="margin-top:5px"></i>
+				<a class="off" href="https://scholar.google.com/citations?user={{ site.google_scholar }}=en" style="color:inherit">{{ page.github }}</a>
+			</div>
+			{% endif %}
+						
+			{% if page.twitter %}
+			Twitter
+			<div style="margin-bottom:20px">
+				<i class="fa fa-twitter fa-fw" style="margin-top:5px"></i>
+				<a class="off" href="https://twitter.com/{{ page.twitter }}" style="color:inherit"">{{ page.twitter }}</a>
+			</div>
+			{% endif %}
+			
+			{% if page.email %}
+			Email
+			<div style="margin-bottom:20px">
+				<i class="fa fa-envelope fa-fw" style="margin-top:5px"></i>
+				<a class="off" href="mailto:{{ page.email }}" style="color:inherit">{{ page.email }}</a>
+			</div>
+			{% endif %}
+	</div>
+	<div class="col-md-8">
+		<h2>{{ page.title }}</h2>
+		<i>{{ page.journal }}</i>.
+		<div class="post">
+			{{ content }}
+		</div>
+	</div>
+</div>

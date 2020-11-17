@@ -1,0 +1,23 @@
+#- degree: Doctor of Philosophy in Biological Sciences
+- degree: Doctor of Philosophy in Bioinformatics
+  duration: 2006 &mdash; 2010
+  university: Macquarie University
+  location: Sydney, Australia
+  thesis: Virus Sequence Analysis and Compilation
+  advisor: Michael R. Gillings,  Mark J. Gibbs
+
+- degree: Master by Research in Bioinformatics
+  duration: 2003 &mdash; 2004
+  university: University of Glasgow
+  location: United Kingdom
+
+- degree: Master degree in Computer Science
+  duration: 2002 &mdash; 2003
+  university: Universit&eacute; Fran&ccedil;ois Rabelais
+  location: Tours, France
+    
+#- degree: Bachelor degree in Cellular Biology and Physiology
+- degree: Bachelor degree in Biology
+  duration: 1998 &mdash; 2002
+  university: Universit&eacute; de Nice Sophia-Antipolis
+  location: Nice, France
