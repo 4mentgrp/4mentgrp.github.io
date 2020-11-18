@@ -1,7 +1,7 @@
 ---
 layout: members
 title: Matthew Macaulay
-position: Postdoc
+position: Research Associate
 scholar: IUODx34AAAAJ
 email: matthew.macaulay@uts.edu.au
 ---
