@@ -13,6 +13,8 @@ categories:
 				<div class="media-left pull-left">
 					{% if member.image %} 
 					<img src="{{ member.image }}" class="media-object" style="width:120px" alt="{{ member.title }}">
+					{% elsif member.github %}
+					<img src="https://github.com/{{member.github}}.png" class="media-object" style="width:120px" alt="{{ member.title }}"/>
 					{% else %}
 					<img src="https://ui-avatars.com/api/?name={{ member.title }}" class="media-object" style="width:120px" alt="{{ member.title }}"/>
 					{% endif %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Opportunity to work on online phylogenetics
+filled: true
 ---
 
 We are looking to appoint a Research Fellow to work on a project looking at real-time phylogenetics for food-borne outbreak surveillance. The role of the successful applicant will be tailored to their scientific background and interests. A potential area of research includes developing and publishing novel theorems regarding statistical efficiency of sequential Monte Carlo with an emphasis on online phylogenetics. Alternatively the project can focus on the development of real-time surveillance algorithms to detect and track bacterial and viral outbreaks and analyse microbial data using bioinformatic tools. You will produce high quality publications, and deliver presentations at research seminars and international conferences. You may also have the opportunity to engage in tutorial development and delivery.
