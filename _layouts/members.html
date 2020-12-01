@@ -6,6 +6,8 @@ layout: default
 	<div class="col-md-4">
 		{% if page.image %}
 		<img class="media-object" src="{{ page.image }}" style="height:250px;margin-bottom:20px">
+		{% elsif page.github %}
+		<img src="https://github.com/{{page.github}}.png" class="media-object" style="height:250px;margin-bottom:20px" alt="{{ member.title }}"/>
 		{% else %}
 		<div style="margin-bottom:270px"></div>
 		{% endif %}
