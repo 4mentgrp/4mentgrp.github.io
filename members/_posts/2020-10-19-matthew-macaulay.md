@@ -2,6 +2,7 @@
 layout: members
 title: Matthew Macaulay
 position: Research Associate
+github: mattapow
 scholar: IUODx34AAAAJ
 email: matthew.macaulay@uts.edu.au
 ---
